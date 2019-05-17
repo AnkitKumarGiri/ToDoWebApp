@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ToDoList</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
-<body>
-    
+<!-- onload="createListElement()" -->
+<body >
+
+    <div class="container">
+        <div class="line">
+            <h1>To Do List</h1>
+        </div>
+   </div>
+
+    <div class="line">
+        <input id="to-do-input" type="text" placeholder="New item..." maxlength="27">
+        <button id="enter">Add</button>
+    </div>
+
+    <div class="line">
+        <div class="listItems">
+            <ul id="ulist"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
 </body>
 </html>
